@@ -10,7 +10,7 @@ Ticker: LTR
 
 Algorithm: Scrypt
 
-Ater Block 52000 Re Activate POW Reward: 15 ( old 50 LTR [Ending on block 2500])
+Ater Block 52000 Re Activate POW Reward: 10 ( old 50 LTR [Ending on block 2500])
 
 POS Reward: 5 LTR
 
