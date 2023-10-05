@@ -1712,10 +1712,6 @@ bool GetTransaction(const uint256 &hash, CTransaction &txOut, const Consensus::P
 }
 
 
-
-
-
-
 //////////////////////////////////////////////////////////////////////////////
 //
 // CBlock and CBlockIndex
@@ -1778,9 +1774,18 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus
     return true;
 }
 
+//----------------------------- PoW Miner Reward --------------------------------  //
+
 CAmount GetProofOfWorkSubsidy()
 {
-    return 50 * COIN;
+    int nBlockHeight = chainActive.Height() + 1;
+
+    if (nBlockHeight == 1) { return 50 * COIN;
+    }
+    if (nBlockHeight <= 2499) { return 50 * COIN; // adapt to the old one
+    }
+    if (nBlockHeight >= 52000) { return 10 * COIN; 
+    }
 }
 
 CAmount GetProofOfStakeSubsidy()
