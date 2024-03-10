@@ -120,7 +120,7 @@ public:
         consensus.nProtocolV1RetargetingFixedTime = 1681822821;
         consensus.nProtocolV2Time = 1681822822;
         consensus.nProtocolV3Time = 1681822823;
-        consensus.nLastPOWBlock = 2500;
+        consensus.nLastPOWBlock = 5000000;
         consensus.nStakeTimestampMask = 0xf; // 15
         consensus.nCoinbaseMaturity = 10;
         consensus.nStakeMinAge = 4 * 60 * 60; // 4 hours
