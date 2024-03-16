@@ -18,9 +18,9 @@ POS Reward: 5 LTR
 
 Links
 
-Website - https://www.litered.online
+Website - https://www.literedmore.org
 
-Explorer - https://explorer.litered.online
+Explorer - https://explorer.literedmore.org
 
 Discord - https://discord.gg/8auBNE6XGa
 
