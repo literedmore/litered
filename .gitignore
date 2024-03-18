@@ -3,7 +3,7 @@
 *.exe
 src/litered
 src/literedd
-src/litered-cli
+src/literedmore-cli
 src/litered-tx
 src/test/test_litered
 src/qt/test/test_litered-qt

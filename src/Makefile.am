@@ -69,7 +69,7 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += litered-cli litered-tx
+  bin_PROGRAMS += literedmore-cli litered-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -408,7 +408,7 @@ literedd_LDADD = \
   
 literedd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# litered-cli binary #
+# literedmore-cli binary #
 litered_cli_SOURCES = bitcoin-cli.cpp
 litered_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 litered_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)

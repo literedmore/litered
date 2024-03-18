@@ -16,7 +16,7 @@ AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 BITCOIN_DAEMON_NAME=literedd
 BITCOIN_GUI_NAME=litered-qt
-BITCOIN_CLI_NAME=litered-cli
+BITCOIN_CLI_NAME=literedmore-cli
 BITCOIN_TX_NAME=litered-tx
 
 AC_CANONICAL_HOST

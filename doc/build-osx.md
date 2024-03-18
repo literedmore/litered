@@ -71,8 +71,8 @@ Other commands:
 -------
 
     ./src/literedd -daemon # Starts the litered daemon.
-    ./src/litered-cli --help # Outputs a list of command-line options.
-    ./src/litered-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/literedmore-cli --help # Outputs a list of command-line options.
+    ./src/literedmore-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------

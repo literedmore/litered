@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "LiteRedMore"
-            VALUE "FileDescription",    "litered-cli (JSON-RPC client for " PACKAGE_NAME ")"
+            VALUE "FileDescription",    "literedmore-cli (JSON-RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litered-cli"
+            VALUE "InternalName",       "literedmore-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litered-cli.exe"
-            VALUE "ProductName",        "litered-cli"
+            VALUE "OriginalFilename",   "literedmore-cli.exe"
+            VALUE "ProductName",        "literedmore-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
