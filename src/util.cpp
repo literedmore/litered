@@ -454,13 +454,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\LiteRedMoreMore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\LiteRedMoreMore
-    // Mac: ~/Library/Application Support/LiteRedMoreMore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\LiteRedMore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\LiteRedMore
+    // Mac: ~/Library/Application Support/LiteRedMore
     // Unix: ~/.litered
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "LiteRedMoreMore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "LiteRedMore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -470,7 +470,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/LiteRedMoreMore";
+    return pathRet / "Library/Application Support/LiteRedMore";
 #else
     // Unix
     return pathRet / ".litered";
@@ -817,7 +817,7 @@ std::string CopyrightHolders(const std::string& strPrefix)
         strPrefix + "The Bitcoin Core developers" +
         "\n" + strPrefix + "The Blackcoin developers" +
         "\n" + strPrefix + "The Blackcoin More developers";
-        "\n" + strPrefix + "LiteRedMoreMore developers";
+        "\n" + strPrefix + "LiteRedMore developers";
 
     return strCopyrightHolders;
 }

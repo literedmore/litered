@@ -81,12 +81,12 @@
     <message>
         <location line="+7"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your LiteRedMoreMore addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <translation>These are your LiteRedMore addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your LiteRedMoreMore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <translation>These are your LiteRedMore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -431,7 +431,7 @@
     <message>
         <location line="-510"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a LiteRedMoreMore address</translation>
+        <translation>Send coins to a LiteRedMore address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -461,7 +461,7 @@
     <message>
         <location line="+516"/>
         <source>Bitcoin</source>
-        <translation>LiteRedMoreMore</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <location line="-741"/>
@@ -496,12 +496,12 @@
     <message>
         <location line="+7"/>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your LiteRedMoreMore addresses to prove you own them</translation>
+        <translation>Sign messages with your LiteRedMore addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified LiteRedMoreMore addresses</translation>
+        <translation>Verify messages to ensure they were signed with specified LiteRedMore addresses</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -552,8 +552,8 @@
         <location line="+356"/>
         <source>%n active connection(s) to Bitcoin network</source>
         <translation>
-            <numerusform>%n active connection to LiteRedMoreMore network</numerusform>
-            <numerusform>%n active connections to LiteRedMoreMore network</numerusform>
+            <numerusform>%n active connection to LiteRedMore network</numerusform>
+            <numerusform>%n active connections to LiteRedMore network</numerusform>
         </translation>
     </message>
     <message>
@@ -612,7 +612,7 @@
     <message>
         <location line="-440"/>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Show the %1 help message to get a list with possible LiteRedMoreMore command-line options</translation>
+        <translation>Show the %1 help message to get a list with possible LiteRedMore command-line options</translation>
     </message>
     <message>
         <location line="+199"/>
@@ -1070,7 +1070,7 @@
     <message>
         <location line="+10"/>
         <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 will download and store a copy of the LiteRedMoreMore block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <translation>%1 will download and store a copy of the LiteRedMore block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1119,7 +1119,7 @@
     <message>
         <location line="+119"/>
         <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the LiteRedMoreMore network, as detailed below.</translation>
+        <translation>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the LiteRedMore network, as detailed below.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1325,7 +1325,7 @@
     <message>
         <location line="+30"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the LiteRedMoreMore client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <translation>Automatically open the LiteRedMore client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1335,7 +1335,7 @@
     <message>
         <location line="+17"/>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Connect to the LiteRedMoreMore network through a SOCKS5 proxy.</translation>
+        <translation>Connect to the LiteRedMore network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1390,7 +1390,7 @@
     <message>
         <location line="+25"/>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the LiteRedMoreMore network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <translation>Connect to the LiteRedMore network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1515,7 +1515,7 @@
         <location line="+62"/>
         <location line="+386"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the LiteRedMoreMore network after a connection is established, but this process has not completed yet.</translation>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the LiteRedMore network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1635,7 +1635,7 @@
     <message>
         <location line="+8"/>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid LiteRedMoreMore address or malformed URI parameters.</translation>
+        <translation>URI cannot be parsed! This can be caused by an invalid LiteRedMore address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1757,7 +1757,7 @@
     <message>
         <location filename="../guiutil.cpp" line="+136"/>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Enter a LiteRedMoreMore address (e.g. %1)</translation>
+        <translation>Enter a LiteRedMore address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+762"/>
@@ -2343,7 +2343,7 @@
         <location line="+14"/>
         <location line="+23"/>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LiteRedMoreMore network.</translation>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LiteRedMore network.</translation>
     </message>
     <message>
         <location line="-7"/>
@@ -2851,7 +2851,7 @@
     <message>
         <location line="+102"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Warning: Invalid LiteRedMoreMore address</translation>
+        <translation>Warning: Invalid LiteRedMore address</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2906,7 +2906,7 @@
     <message>
         <location line="+39"/>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>The LiteRedMoreMore address to send the payment to</translation>
+        <translation>The LiteRedMore address to send the payment to</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -2963,7 +2963,7 @@
     <message>
         <location line="+47"/>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>A message that was attached to the litered: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LiteRedMoreMore network.</translation>
+        <translation>A message that was attached to the litered: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LiteRedMore network.</translation>
     </message>
     <message>
         <location line="+448"/>
@@ -3025,7 +3025,7 @@
     <message>
         <location line="+18"/>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>The LiteRedMoreMore address to sign the message with</translation>
+        <translation>The LiteRedMore address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3067,7 +3067,7 @@
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Sign the message to prove you own this LiteRedMoreMore address</translation>
+        <translation>Sign the message to prove you own this LiteRedMore address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3098,12 +3098,12 @@
     <message>
         <location line="+21"/>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>The LiteRedMoreMore address the message was signed with</translation>
+        <translation>The LiteRedMore address the message was signed with</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified LiteRedMoreMore address</translation>
+        <translation>Verify the message to ensure it was signed with the specified LiteRedMore address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3954,7 +3954,7 @@
     <message>
         <location line="-360"/>
         <source>Bitcoin Core</source>
-        <translation type="unfinished">LiteRedMoreMore</translation>
+        <translation type="unfinished">LiteRedMore</translation>
     </message>
     <message>
         <location line="+1"/>

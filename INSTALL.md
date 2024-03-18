@@ -1,5 +1,5 @@
-Building LiteRedMoreMore
+Building LiteRedMore
 ================
 
 See doc/build-*.md for instructions on building the various
-elements of the LiteRedMoreMore reference implementation of LiteRedMoreMore.
+elements of the LiteRedMore reference implementation of LiteRedMore.

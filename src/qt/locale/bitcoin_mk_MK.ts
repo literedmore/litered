@@ -139,7 +139,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Испрати блэккоини на LiteRedMoreMore адреса</translation>
+        <translation>Испрати блэккоини на LiteRedMore адреса</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRedMoreMore</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -579,7 +579,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>LiteRedMoreMore</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Warning</source>

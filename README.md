@@ -1,10 +1,10 @@
-LiteRedMoreMore Cryptocurrency
+LiteRedMore Cryptocurrency
 
 
 Fast and High Secure.
 
 
-Name: LiteRedMoreMore
+Name: LiteRedMore
 
 Ticker: LTR
 
@@ -24,6 +24,6 @@ Explorer - https://explorer.literedmore.org
 
 Discord - https://discord.gg/8auBNE6XGa
 
-Twitter - https://twitter.com/LiteRedMoreMoreCoin
+Twitter - https://twitter.com/LiteRedMoreCoin
 
 Exchanges - https://exchange-assets.com , https://bimex.live , https://xeggex.com

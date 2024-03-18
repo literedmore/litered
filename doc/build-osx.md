@@ -24,7 +24,7 @@ In case you want to build the disk image with `make deploy` (.dmg / optional), y
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build LiteRedMoreMore
+Build LiteRedMore
 ------------------------
 
 1. Clone the litered source code and cd into `litered`
@@ -53,19 +53,19 @@ Build LiteRedMoreMore
 Running
 -------
 
-LiteRedMoreMore is now available at `./src/literedd`
+LiteRedMore is now available at `./src/literedd`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=literedrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/LiteRedMoreMore/literedmore.conf"
+    echo -e "rpcuser=literedrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/LiteRedMore/literedmore.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/LiteRedMoreMore/literedmore.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/LiteRedMore/literedmore.conf"
 
 The first time you run literedd, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/LiteRedMoreMore/debug.log
+    tail -f $HOME/Library/Application\ Support/LiteRedMore/debug.log
 
 Other commands:
 -------

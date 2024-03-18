@@ -155,7 +155,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Izvedite plačilo na naslov LiteRedMoreMore</translation>
+        <translation>Izvedite plačilo na naslov LiteRedMore</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -179,7 +179,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRedMoreMore</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -207,11 +207,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podpišite poljubno sporočilo z enim svojih naslovov LiteRedMoreMore, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
+        <translation>Podpišite poljubno sporočilo z enim svojih naslovov LiteRedMore, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom LiteRedMoreMore</translation>
+        <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom LiteRedMore</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -251,7 +251,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna povezava v omrežje LiteRedMoreMore</numerusform><numerusform>%n aktivni povezavi v omrežje LiteRedMoreMore</numerusform><numerusform>%n aktivne povezave v omrežje LiteRedMoreMore</numerusform><numerusform>%n aktivnih povezav v omrežje Bitcoin</numerusform></translation>
+        <translation><numerusform>%n aktivna povezava v omrežje LiteRedMore</numerusform><numerusform>%n aktivni povezavi v omrežje LiteRedMore</numerusform><numerusform>%n aktivne povezave v omrežje LiteRedMore</numerusform><numerusform>%n aktivnih povezav v omrežje Bitcoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -669,7 +669,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Poveži se v omrežje LiteRedMoreMore preko posredniškega strežnika SOCKS5.</translation>
+        <translation>Poveži se v omrežje LiteRedMore preko posredniškega strežnika SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -772,7 +772,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem LiteRedMoreMore, a trenutno ta proces še ni zaključen.</translation>
+        <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem LiteRedMore, a trenutno ta proces še ni zaključen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -861,7 +861,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Vnesite naslov LiteRedMoreMore (npr. %1):</translation>
+        <translation>Vnesite naslov LiteRedMore (npr. %1):</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1125,7 +1125,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja LiteRedMoreMore tega sporočila ne bo vsebovalo.</translation>
+        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja LiteRedMore tega sporočila ne bo vsebovalo.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1361,7 +1361,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>Naslov LiteRedMoreMore, na katerega bo plačilo poslano</translation>
+        <translation>Naslov LiteRedMore, na katerega bo plačilo poslano</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1405,7 +1405,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Sporočilo, ki ste ga pripeli na URI tipa litered:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja LiteRedMoreMore.</translation>
+        <translation>Sporočilo, ki ste ga pripeli na URI tipa litered:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja LiteRedMore.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1442,7 +1442,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>Naslov LiteRedMoreMore, s katerim podpisujete sporočilo</translation>
+        <translation>Naslov LiteRedMore, s katerim podpisujete sporočilo</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1498,11 +1498,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>Naslov LiteRedMoreMore, s katerim je bilo sporočilo podpisano</translation>
+        <translation>Naslov LiteRedMore, s katerim je bilo sporočilo podpisano</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom LiteRedMoreMore.</translation>
+        <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom LiteRedMore.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1591,7 +1591,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>LiteRedMoreMore</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

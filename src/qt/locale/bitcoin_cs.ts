@@ -363,7 +363,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRedMoreMore</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Seznam argumentů LiteRedMoreMoreu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <translation>Seznam argumentů LiteRedMoreu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,7 +549,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. LiteRedMoreMore nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <translation>Stala se fatální chyba. LiteRedMore nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -2245,7 +2245,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>LiteRedMoreMoreová adresa příjemce</translation>
+        <translation>LiteRedMoreová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2338,7 +2338,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>LiteRedMoreMoreová adresa, kterou se zpráva podepíše</translation>
+        <translation>LiteRedMoreová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2394,7 +2394,7 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>LiteRedMoreMoreová adresa, kterou je zpráva podepsána</translation>
+        <translation>LiteRedMoreová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
@@ -3059,7 +3059,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>LiteRedMoreMore</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>The %s developers</source>
