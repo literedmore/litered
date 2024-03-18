@@ -427,16 +427,16 @@ litered_cli_LDADD = \
 litered_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 
 # literedmore-tx binary #
-litered_tx_SOURCES = bitcoin-tx.cpp
-litered_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-litered_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-litered_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+literedmore_tx_SOURCES = bitcoin-tx.cpp
+literedmore_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+literedmore_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+literedmore_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-litered_tx_SOURCES += bitcoin-tx-res.rc
+literedmore_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-litered_tx_LDADD = \
+literedmore_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -444,7 +444,7 @@ litered_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-litered_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+literedmore_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
