@@ -6,7 +6,7 @@ src/literedmored
 src/literedmore-cli
 src/literedmore-tx
 src/test/test_litered
-src/qt/test/test_litered-qt
+src/qt/test/test_literedmore-qt
 
 # autoreconf
 Makefile.in
@@ -45,11 +45,11 @@ src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
 
-src/qt/litered-qt.config
-src/qt/litered-qt.creator
-src/qt/litered-qt.creator.user
-src/qt/litered-qt.files
-src/qt/litered-qt.includes
+src/qt/literedmore-qt.config
+src/qt/literedmore-qt.creator
+src/qt/literedmore-qt.creator.user
+src/qt/literedmore-qt.files
+src/qt/literedmore-qt.includes
 
 .deps
 .dirstamp
@@ -86,7 +86,7 @@ src/qt/litered-qt.includes
 *.qm
 Makefile
 !depends/Makefile
-src/qt/litered-qt
+src/qt/literedmore-qt
 LiteRedMore-Qt.app
 background.tiff*
 
@@ -95,7 +95,7 @@ Makefile.am.user
 
 # Unit-tests
 Makefile.test
-litered-qt_test
+literedmore-qt_test
 src/test/buildenv.py
 
 # Resources cpp
