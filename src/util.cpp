@@ -434,7 +434,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "litered";
+    const char* pszModule = "literedmore";
 #endif
     if (pex)
         return strprintf(
@@ -457,7 +457,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\LiteRedMore
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\LiteRedMore
     // Mac: ~/Library/Application Support/LiteRedMore
-    // Unix: ~/.litered
+    // Unix: ~/.literedmore
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "LiteRedMore";
@@ -473,7 +473,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/LiteRedMore";
 #else
     // Unix
-    return pathRet / ".litered";
+    return pathRet / ".literedmore";
 #endif
 #endif
 }
@@ -817,6 +817,7 @@ std::string CopyrightHolders(const std::string& strPrefix)
         strPrefix + "The Bitcoin Core developers" +
         "\n" + strPrefix + "The Blackcoin developers" +
         "\n" + strPrefix + "The Blackcoin More developers";
+        "\n" + strPrefix + "LiteRed developers";
         "\n" + strPrefix + "LiteRedMore developers";
 
     return strCopyrightHolders;
