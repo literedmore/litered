@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMoreMore</translation>
     </message>
     <message>
         <source>Wallet</source>

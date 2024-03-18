@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build LiteRed in Unix.
+Some notes on how to build LiteRedMoreMore in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
 
@@ -55,7 +55,7 @@ Memory Requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1.5 GB of
-memory available when compiling LiteRed. On systems with less, gcc can be
+memory available when compiling LiteRedMoreMore. On systems with less, gcc can be
 tuned to conserve memory with additional CXXFLAGS:
 
 
@@ -86,7 +86,7 @@ BerkeleyDB 5.1, which break binary wallet compatibility with the distributed exe
 are based on BerkeleyDB 6.2. If you do not care about wallet compatibility,
 pass `--with-incompatible-bdb` to configure.
 
-See the section "Disable-wallet mode" to build LiteRed without wallet.
+See the section "Disable-wallet mode" to build LiteRedMoreMore without wallet.
 
 Optional:
 
@@ -99,7 +99,7 @@ ZMQ dependencies:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build LiteRed-Qt, make sure that the required packages for Qt development
+If you want to build LiteRedMoreMore-Qt, make sure that the required packages for Qt development
 are installed. Either Qt 5 or Qt 4 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 5 will be used. Pass `--with-gui=qt4` to configure to choose Qt4.
 To build without GUI pass `--without-gui`.
@@ -178,7 +178,7 @@ cd db-6.2.32/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure LiteRed to use our own-built instance of BDB
+# Configure LiteRedMoreMore to use our own-built instance of BDB
 cd $BITCOIN_ROOT
 ./autogen.sh
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" --disable-bench --disable-tests --disable-gui-tests --disable-zmq --with-miniupnpc --enable-hardening --with-gui=no 
@@ -278,7 +278,7 @@ This example lists the steps necessary to setup and build a command line only, n
 Note:
 Enabling wallet support requires either compiling against a Berkeley DB newer than 6.2 (package `db`) using `--with-incompatible-bdb`,
 or building and depending on a local version of Berkeley DB 6.2.
-As mentioned above, when maintaining portability of the wallet between the standard LiteRed distributions and independently built
+As mentioned above, when maintaining portability of the wallet between the standard LiteRedMoreMore distributions and independently built
 node software is desired, Berkeley DB 6.2 must be used.
 
 

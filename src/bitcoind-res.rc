@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "LiteRed"
-            VALUE "FileDescription",    "literedd (LiteRed node with a JSON-RPC server)"
+            VALUE "CompanyName",        "LiteRedMoreMore"
+            VALUE "FileDescription",    "literedd (LiteRedMoreMore node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "literedd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

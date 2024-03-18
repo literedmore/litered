@@ -500,11 +500,11 @@ std::string LicenseInfo()
            "\n" +
            FormatParagraph(strprintf("Copyright (C) %i-%i The Blackcoin More Developers", 2018, COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf("Copyright (C) %i The LiteRed Developers", 2023)) + "\n" +
+           FormatParagraph(strprintf("Copyright (C) %i The LiteRedMoreMore Developers", 2023)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf("Copyright (C) %i The LiteRed More Developers", 2023)) + "\n" +
+           FormatParagraph(strprintf("Copyright (C) %i The LiteRedMoreMore More Developers", 2023)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf(_("Please contribute if you find LiteRed useful. "
+           FormatParagraph(strprintf(_("Please contribute if you find LiteRedMoreMore useful. "
                        "Visit %s for further information about the software."),
                URL_WEBSITE)) +
            "\n" +

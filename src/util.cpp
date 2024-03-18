@@ -98,7 +98,7 @@ const int64_t nStartupTime = GetTime();
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "litered.conf";
+const char * const BITCOIN_CONF_FILENAME = "literedmore.conf";
 const char * const BITCOIN_PID_FILENAME = "literedd.pid";
 
 map<string, string> mapArgs;
@@ -454,13 +454,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\LiteRed
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\LiteRed
-    // Mac: ~/Library/Application Support/LiteRed
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\LiteRedMoreMore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\LiteRedMoreMore
+    // Mac: ~/Library/Application Support/LiteRedMoreMore
     // Unix: ~/.litered
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "LiteRed";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "LiteRedMoreMore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -470,7 +470,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/LiteRed";
+    return pathRet / "Library/Application Support/LiteRedMoreMore";
 #else
     // Unix
     return pathRet / ".litered";
@@ -817,7 +817,7 @@ std::string CopyrightHolders(const std::string& strPrefix)
         strPrefix + "The Bitcoin Core developers" +
         "\n" + strPrefix + "The Blackcoin developers" +
         "\n" + strPrefix + "The Blackcoin More developers";
-        "\n" + strPrefix + "LiteRed developers";
+        "\n" + strPrefix + "LiteRedMoreMore developers";
 
     return strCopyrightHolders;
 }
