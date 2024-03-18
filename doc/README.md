@@ -16,7 +16,7 @@ The following are some helpful notes on how to run LiteRedMore on your native pl
 Unpack the files into a directory and run:
 
 - `bin/litered-qt` (GUI) or
-- `bin/literedd` (headless)
+- `bin/literedmored` (headless)
 
 ### Windows
 

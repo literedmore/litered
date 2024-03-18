@@ -139,7 +139,7 @@ libqrencode (optional) can be installed with:
 
 Notes
 -----
-The release is built with GCC and then "strip literedd" to strip the debug
+The release is built with GCC and then "strip literedmored" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
