@@ -99,7 +99,7 @@ const int64_t nStartupTime = GetTime();
 using namespace std;
 
 const char * const BITCOIN_CONF_FILENAME = "literedmore.conf";
-const char * const BITCOIN_PID_FILENAME = "literedd.pid";
+const char * const BITCOIN_PID_FILENAME = "literedmored.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
