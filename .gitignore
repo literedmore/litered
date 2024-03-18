@@ -4,7 +4,7 @@
 src/litered
 src/literedmored
 src/literedmore-cli
-src/litered-tx
+src/literedmore-tx
 src/test/test_litered
 src/qt/test/test_litered-qt
 
