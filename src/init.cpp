@@ -502,7 +502,7 @@ std::string LicenseInfo()
            "\n" +
            FormatParagraph(strprintf("Copyright (C) %i The LiteRed Developers", 2023)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf("Copyright (C) %i The LiteRedMore More Developers", 2023)) + "\n" +
+           FormatParagraph(strprintf("Copyright (C) %i The LiteRedMore Developers", 2023)) + "\n" +
            "\n" +
            FormatParagraph(strprintf(_("Please contribute if you find LiteRedMore useful. "
                        "Visit %s for further information about the software."),
