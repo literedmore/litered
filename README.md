@@ -13,4 +13,7 @@
 	* PoS   5 LRM
 #### Website [www.literedmore.org](http://literedmore.org/)
 #### Block Explorer [https://explorer.literedmore.org](https://explorer.literedmore.org)
+#### Discord channel https://discord.com/invite/PPRCytUhuv
+#### Telegram https://t.me/+riNS1x7StHphNmI0
+#### Twitter https://twitter.com/LiteRedCoin
 #### Exchanges - https://exchange-assets.com , https://bimex.live , https://xeggex.com
