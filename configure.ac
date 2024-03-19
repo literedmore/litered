@@ -7,17 +7,17 @@ define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2023)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[LiteRed]])
-AC_INIT([LiteRed],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/literedmore/literedmore],[literedmore])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[LiteRedMore]])
+AC_INIT([LiteRedMore],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/literedmore/literedmore],[literedmore])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=literedd
-BITCOIN_GUI_NAME=litered-qt
-BITCOIN_CLI_NAME=litered-cli
-BITCOIN_TX_NAME=litered-tx
+BITCOIN_DAEMON_NAME=literedmored
+BITCOIN_GUI_NAME=literedmore-qt
+BITCOIN_CLI_NAME=literedmore-cli
+BITCOIN_TX_NAME=literedmore-tx
 
 AC_CANONICAL_HOST
 

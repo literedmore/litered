@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "LiteRed"
+#define QAPP_ORG_NAME "LiteRedMore"
 #define QAPP_ORG_DOMAIN "literedmore.org"
-#define QAPP_APP_NAME_DEFAULT "LiteRed-Qt"
-#define QAPP_APP_NAME_TESTNET "LiteRed-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "LiteRedMore-Qt"
+#define QAPP_APP_NAME_TESTNET "LiteRedMore-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

@@ -166,13 +166,13 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000d46ffd839235f7b0e582fe5ac1bc9c70ab91f469bd31cda04e14a2ce42b"));
         assert(genesis.hashMerkleRoot == uint256S("0xaeb019c6f3a00f787190e934c29201d7bbbccf824b5d4c7f812386b263823e24"));
 
-        vSeeds.push_back(CDNSSeedData("litered.online", "vps.litered.online"));
-        vSeeds.push_back(CDNSSeedData("dnsseed.litered.online", "dnsseed.litered.online"));
-	vSeeds.push_back(CDNSSeedData("dnsseed1.litered.online", "dnsseed1.litered.online"));
-	vSeeds.push_back(CDNSSeedData("dnsseed2.litered.online", "dnsseed2.litered.online"));
-	vSeeds.push_back(CDNSSeedData("dnsseed3.litered.online", "dnsseed3.litered.online"));
-	vSeeds.push_back(CDNSSeedData("dnsseed4.litered.online", "dnsseed4.litered.online"));
-	vSeeds.push_back(CDNSSeedData("dnsseed5.litered.online", "dnsseed5.litered.online"));
+        vSeeds.push_back(CDNSSeedData("literedmore.org", "vps.literedmore.org"));
+        vSeeds.push_back(CDNSSeedData("dnsseed.literedmore.org", "dnsseed.literedmore.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed1.literedmore.org", "dnsseed1.literedmore.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed2.literedmore.org", "dnsseed2.literedmore.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed3.literedmore.org", "dnsseed3.literedmore.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed4.literedmore.org", "dnsseed4.literedmore.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed5.literedmore.org", "dnsseed5.literedmore.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,49);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,48);

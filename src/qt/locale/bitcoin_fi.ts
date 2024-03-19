@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Lähetä kolikoita LiteRed-osoitteeseen</translation>
+        <translation>Lähetä kolikoita LiteRedMore-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -191,7 +191,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota LiteRed-ikkuna</translation>
+        <translation>Näytä tai piilota LiteRedMore-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
@@ -219,11 +219,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla LiteRed -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <translation>Allekirjoita viestisi omalla LiteRedMore -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä LiteRed -osoitteella</translation>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä LiteRedMore -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -263,7 +263,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys LiteRed-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä LiteRed-verkkoon</numerusform></translation>
+        <translation><numerusform>%n aktiivinen yhteys LiteRedMore-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä LiteRedMore-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista LiteRedin komentorivivalinnoista</translation>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista LiteRedMorein komentorivivalinnoista</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -552,7 +552,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 lataa ja tallentaa kopion LiteRedin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <translation>%1 lataa ja tallentaa kopion LiteRedMorein lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -709,7 +709,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa LiteRed-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <translation>Avaa LiteRedMore-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -717,7 +717,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä LiteRed-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <translation>Yhdistä LiteRedMore-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -757,7 +757,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä LiteRed-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <translation>Yhdistä LiteRedMore-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -848,7 +848,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu LiteRed-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu LiteRedMore-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien LiteRedien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien LiteRedMoreien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -937,7 +937,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Syötä LiteRed-osoite (esim. %1)</translation>
+        <translation>Syötä LiteRedMore-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1277,7 +1277,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä LiteRed-verkkoon.</translation>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä LiteRedMore-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1354,7 +1354,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä LiteRedeja</translation>
+        <translation>Lähetä LiteRedMoreeja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1509,7 +1509,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>LiteRed-osoite johon maksu lähetetään</translation>
+        <translation>LiteRedMore-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1553,7 +1553,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Viesti joka liitettiin litered: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä LiteRed-verkkoon.</translation>
+        <translation>Viesti joka liitettiin litered: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä LiteRedMore-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1590,7 +1590,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>LiteRed-osoite jolla viesti allekirjoitetaan</translation>
+        <translation>LiteRedMore-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1622,7 +1622,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän LiteRed-osoitteen</translation>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän LiteRedMore-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1642,11 +1642,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>LiteRed-osoite jolla viesti on allekirjoitettu</translation>
+        <translation>LiteRedMore-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä LiteRed-osoitteella</translation>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä LiteRedMore-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1779,7 +1779,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>The %s developers</source>

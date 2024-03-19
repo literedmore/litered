@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviando monedas a una dirección de LiteRed</translation>
+        <translation>Enviando monedas a una dirección de LiteRedMore</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -297,7 +297,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

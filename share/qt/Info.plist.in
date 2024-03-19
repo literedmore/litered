@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>LiteRed-Qt</string>
+  <string>LiteRedMore-Qt</string>
   
   <key>CFBundleName</key>
-  <string>LiteRed-Qt</string>
+  <string>LiteRedMore-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.litered.LiteRed-Qt</string>
+  <string>org.litered.LiteRedMore-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

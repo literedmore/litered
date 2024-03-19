@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questo è un elenco di indirizzi LiteRed a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare litered.</translation>
+        <translation>Questo è un elenco di indirizzi LiteRedMore a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare litered.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi LiteRed che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
+        <translation>Questi sono i tuoi indirizzi LiteRedMore che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -319,7 +319,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Invia fondi ad un indirizzo LiteRed</translation>
+        <translation>Invia fondi ad un indirizzo LiteRedMore</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -371,11 +371,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firma messaggi con i tuoi indirizzi LiteRed per dimostrarne il possesso</translation>
+        <translation>Firma messaggi con i tuoi indirizzi LiteRedMore per dimostrarne il possesso</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi LiteRed specificati</translation>
+        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi LiteRedMore specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -415,7 +415,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n connessione attiva alla rete LiteRed</numerusform><numerusform>%n connessioni alla rete LiteRed attive</numerusform></translation>
+        <translation><numerusform>%n connessione attiva alla rete LiteRedMore</numerusform><numerusform>%n connessioni alla rete LiteRedMore attive</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -459,7 +459,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per LiteRed </translation>
+        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per LiteRedMore </translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -816,7 +816,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 scaricherà e salverà una copia della Blockchain di LiteRed. Saranno salvati almeno %2GB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questo percorso.</translation>
+        <translation>%1 scaricherà e salverà una copia della Blockchain di LiteRedMore. Saranno salvati almeno %2GB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questo percorso.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -990,7 +990,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client LiteRed sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
+        <translation>Apri automaticamente la porta del client LiteRedMore sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -998,7 +998,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Connessione alla rete LiteRed attraverso un proxy SOCKS5.</translation>
+        <translation>Connessione alla rete LiteRedMore attraverso un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1038,7 +1038,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connette alla rete LiteRed attraverso un proxy SOCKS5 separato per Tor.</translation>
+        <translation>Connette alla rete LiteRedMore attraverso un proxy SOCKS5 separato per Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1137,7 +1137,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete LiteRed una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
+        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete LiteRedMore una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1228,7 +1228,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l'URI! I parametri dell'URI o l'indirizzo LiteRed potrebbero non essere corretti.</translation>
+        <translation>Impossibile interpretare l'URI! I parametri dell'URI o l'indirizzo LiteRedMore potrebbero non essere corretti.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1310,7 +1310,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Inserisci un indirizzo LiteRed (ad es. %1)</translation>
+        <translation>Inserisci un indirizzo LiteRedMore (ad es. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1702,7 +1702,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete LiteRed.</translation>
+        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete LiteRedMore.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1847,7 +1847,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia LiteRed</translation>
+        <translation>Invia LiteRedMore</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2047,7 +2047,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Attenzione: Indirizzo LiteRed non valido</translation>
+        <translation>Attenzione: Indirizzo LiteRedMore non valido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2082,7 +2082,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>L'indirizzo LiteRed a cui vuoi inviare il pagamento</translation>
+        <translation>L'indirizzo LiteRedMore a cui vuoi inviare il pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2126,7 +2126,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Messaggio incluso nel litered URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete LiteRed.</translation>
+        <translation>Messaggio incluso nel litered URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete LiteRedMore.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2171,7 +2171,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>L'indirizzo LiteRed da utilizzare per firmare il messaggio</translation>
+        <translation>L'indirizzo LiteRedMore da utilizzare per firmare il messaggio</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2203,7 +2203,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo LiteRed</translation>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo LiteRedMore</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2227,7 +2227,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>L'indirizzo LiteRed con cui è stato contrassegnato il messaggio</translation>
+        <translation>L'indirizzo LiteRedMore con cui è stato contrassegnato il messaggio</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
@@ -2698,7 +2698,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia LiteRed</translation>
+        <translation>Invia LiteRedMore</translation>
     </message>
 </context>
 <context>
@@ -2796,7 +2796,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>The %s developers</source>

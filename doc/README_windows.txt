@@ -1,9 +1,9 @@
-LiteRed
+LiteRedMore
 =============
 
 Intro
 -----
-LiteRed is a free open source peer-to-peer electronic cash system that is
+LiteRedMore is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -11,11 +11,11 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run litered-qt.exe.
+Unpack the files into a directory and run literedmore-qt.exe.
 
-LiteRed is the original LiteRed client and it builds the backbone of the network.
-However, it downloads and stores the entire history of LiteRed transactions;
+LiteRedMore is the original LiteRedMore client and it builds the backbone of the network.
+However, it downloads and stores the entire history of LiteRedMore transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 
-See the LiteRed website at https://literedmore.org for more help and information.
+See the LiteRedMore website at https://literedmore.org for more help and information.

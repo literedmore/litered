@@ -67,7 +67,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "LiteRed cannot be compiled without assertions."
+# error "LiteRedMore cannot be compiled without assertions."
 #endif
 
 /**
@@ -131,7 +131,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "LiteRed Signed Message:\n";
+const string strMessageMagic = "LiteRedMore Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -2505,9 +2505,9 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 
     // BIP66 is always active
     flags |= SCRIPT_VERIFY_DERSIG;
-    // LiteRed also requires DER encoding of pubkeys
+    // LiteRedMore also requires DER encoding of pubkeys
     flags |= SCRIPT_VERIFY_DERKEY;
-    // LiteRed also requires low S in sigs
+    // LiteRedMore also requires low S in sigs
     flags |= SCRIPT_VERIFY_LOW_S;
 
     // Start enforcing CHECKLOCKTIMEVERIFY, (BIP65) since protocol v3

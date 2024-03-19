@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>LiteRed</translation>
+        <translation>LiteRedMore</translation>
     </message>
     <message>
         <source>Wallet</source>

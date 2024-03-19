@@ -14,5 +14,3 @@
 #### Website [www.literedmore.org](http://literedmore.org/)
 #### Block Explorer [https://explorer.literedmore.org](https://explorer.literedmore.org)
 #### Exchanges - https://exchange-assets.com , https://bimex.live , https://xeggex.com
-
-

@@ -98,8 +98,8 @@ const int64_t nStartupTime = GetTime();
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "litered.conf";
-const char * const BITCOIN_PID_FILENAME = "literedd.pid";
+const char * const BITCOIN_CONF_FILENAME = "literedmore.conf";
+const char * const BITCOIN_PID_FILENAME = "literedmored.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -434,7 +434,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "litered";
+    const char* pszModule = "literedmore";
 #endif
     if (pex)
         return strprintf(
@@ -454,13 +454,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\LiteRed
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\LiteRed
-    // Mac: ~/Library/Application Support/LiteRed
-    // Unix: ~/.litered
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\LiteRedMore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\LiteRedMore
+    // Mac: ~/Library/Application Support/LiteRedMore
+    // Unix: ~/.literedmore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "LiteRed";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "LiteRedMore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -470,10 +470,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/LiteRed";
+    return pathRet / "Library/Application Support/LiteRedMore";
 #else
     // Unix
-    return pathRet / ".litered";
+    return pathRet / ".literedmore";
 #endif
 #endif
 }
@@ -818,6 +818,7 @@ std::string CopyrightHolders(const std::string& strPrefix)
         "\n" + strPrefix + "The Blackcoin developers" +
         "\n" + strPrefix + "The Blackcoin More developers";
         "\n" + strPrefix + "LiteRed developers";
+        "\n" + strPrefix + "LiteRedMore developers";
 
     return strCopyrightHolders;
 }

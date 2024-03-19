@@ -490,7 +490,7 @@ std::string HelpMessage(HelpMessageMode mode)
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/literedmore/literedmore>";
-    const std::string URL_WEBSITE = "<https://www.litered.online>";
+    const std::string URL_WEBSITE = "<https://www.literedmore.org>";
     // todo: remove urls from translations on next change
 
     // return FormatParagraph(strprintf(_("Copyright (C) %i-%i %s"), 2009, COPYRIGHT_YEAR, CopyrightHolders())) + "\n" +
@@ -502,9 +502,9 @@ std::string LicenseInfo()
            "\n" +
            FormatParagraph(strprintf("Copyright (C) %i The LiteRed Developers", 2023)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf("Copyright (C) %i The LiteRed More Developers", 2023)) + "\n" +
+           FormatParagraph(strprintf("Copyright (C) %i The LiteRedMore Developers", 2023)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf(_("Please contribute if you find LiteRed useful. "
+           FormatParagraph(strprintf(_("Please contribute if you find LiteRedMore useful. "
                        "Visit %s for further information about the software."),
                URL_WEBSITE)) +
            "\n" +
