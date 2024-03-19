@@ -465,10 +465,10 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
     RISC*:Mach:*:*)
 	echo mips-dec-mach_bsd4.3
 	exit ;;
-    RISC*:ULRMIX:*:*)
+    RISC*:ULTRIX:*:*)
 	echo mips-dec-ultrix${UNAME_RELEASE}
 	exit ;;
-    VAX*:ULRMIX*:*:*)
+    VAX*:ULTRIX*:*:*)
 	echo vax-dec-ultrix${UNAME_RELEASE}
 	exit ;;
     2020:CLIX:*:* | 2430:CLIX:*:*)
