@@ -17,3 +17,5 @@
 #### Telegram https://t.me/+riNS1x7StHphNmI0
 #### Twitter https://twitter.com/LiteRedCoin
 #### Exchanges - https://exchange-assets.com , https://bimex.live , https://xeggex.com
+
+#### LiteRedMore (LRM) Donate : LxtQN8WLvjrhiZZX8nUSBNuKnqKg381RVk
