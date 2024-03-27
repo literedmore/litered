@@ -137,7 +137,8 @@ public:
         pchMessageStart[1] = 0x42;
         pchMessageStart[2] = 0xe0;
         pchMessageStart[3] = 0x34;
-        nDefaultPort = 11724;
+        nDefaultPort = 23424;
+        //nDefaultPort = 11724;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1681822821, 4024122, 0x1e0fffff, 1, 0);
@@ -245,7 +246,8 @@ public:
         pchMessageStart[1] = 0x31;
         pchMessageStart[2] = 0x8a;
         pchMessageStart[3] = 0x86;
-        nDefaultPort = 21724;
+        nDefaultPort = 31725;
+        //nDefaultPort = 21724;
 
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000000000000000100001");
@@ -363,7 +365,8 @@ public:
         pchMessageStart[1] = 0x42;
         pchMessageStart[2] = 0xe0;
         pchMessageStart[3] = 0x06;
-        nDefaultPort = 35714;
+        nDefaultPort = 43425;
+        // nDefaultPort = 35714;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1681822821, 13784, 0x1f00ffff, 1, 0);
