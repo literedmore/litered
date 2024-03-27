@@ -1784,13 +1784,18 @@ CAmount GetProofOfWorkSubsidy()
     }
     if (nBlockHeight <= 2499) { return 50 * COIN; // adapt to the old one
     }
-    if (nBlockHeight >= 100000) { return 10 * COIN; 
+    if (nBlockHeight >= 2500) { return 10 * COIN; // working on after block 100.000
     }
 }
 
 CAmount GetProofOfStakeSubsidy()
 {
-    return COIN * 5;
+    int nBlockHeight = chainActive.Height() + 1;
+    
+    if (nBlockHeight <= 104759) { return 5 * COIN;
+    }
+    if (nBlockHeight >= 104760) { return 2 * COIN;
+    }
 }
 
 bool IsInitialBlockDownload()
