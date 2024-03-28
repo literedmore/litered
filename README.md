@@ -10,7 +10,7 @@
 * Transaction (default 4 confirmation) blocks
 * Block Rewards
 	* PoW   10 LRM
-	* PoS   5 LRM
+	* PoS   5 LRM ( after block 104759 block reward is 2 LRM)
 #### Website [www.literedmore.org](http://literedmore.org/)
 #### Block Explorer [https://explorer.literedmore.org](https://explorer.literedmore.org)
 #### Discord channel https://discord.com/invite/PPRCytUhuv
