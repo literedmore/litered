@@ -13,9 +13,9 @@
 	* PoS   5 LRM ( after block 104759 block reward is 2 LRM)
 #### Website [www.literedmore.org](http://literedmore.org/)
 #### Block Explorer [https://explorer.literedmore.org](https://explorer.literedmore.org)
-#### Discord channel https://discord.com/invite/PPRCytUhuv
-#### Telegram https://t.me/+riNS1x7StHphNmI0
-#### Twitter https://twitter.com/LiteRedCoin
-#### Exchanges - https://xeggex.com
+#### Discord channel https://discord.com/invite/zN3BUKbn
+#### Twitter https://twitter.com/literedmore
+#### Telegram https://t.me/literedmore
+#### Exchange - https://xeggex.com
 
 #### LiteRedMore (LRM) Donate : LxtQN8WLvjrhiZZX8nUSBNuKnqKg381RVk
